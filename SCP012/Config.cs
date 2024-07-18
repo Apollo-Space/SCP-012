@@ -33,7 +33,7 @@ public class Config : IConfig
     };
 
     [Description("Time that indicate how long before next voicelines should be displayed.")]
-    public float WaitUntilNextLine { get; set; } = 6f;
+    public float WaitUntilNextLine { get; set; } = 4f;
 
     [Description("List of voicelines, showed when the player is in the KillDistance.")]
     public string[] VoiceLines { get; set; } = new string[]

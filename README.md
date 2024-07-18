@@ -4,7 +4,8 @@
 SCP-012 is a plugin for SCP: Secret Laboratory that utilizes the EXILED framework.\
 It implements SCP-012 with its corresponding room, using Michal78900's MapEditorReborn plugin.
 
-![scp012](https://cdn.discordapp.com/attachments/912293094609801257/1132690923428511744/SCP012-5.png)
+This is the edited version for brazillian server Apollo Space
+
 ## Features
 
 - The room will automatically spawn in LczToilets, where a new door will be created.
@@ -16,20 +17,7 @@ It implements SCP-012 with its corresponding room, using Michal78900's MapEditor
 
 ## How to install
 
-Follow the steps below to perform a correct installation of the plugin:\
-*An updated version of MapEditorReborn is already provided in the release.*
-
-    1) Download Plugin.tar.gz from https://github.com/SmusiJarviss/SCP-012/releases/latest.
-    2) Place SCP012.dll and MapEditorReborn.dll into the EXILED\Plugins folder.
-    3) Move the contents of the Schematics and Maps folders to EXILED/Configs/MapEditorReborn/Schematics and EXILED/Configs/MapEditorReborn/Maps respectively.
-    4) Open the EXILED/Configs/[server_port]-config.yml file, navigate to the MapEditorReborn configs, and set the map generation to "on_roundstarted".
-
-![Screenshot1](https://cdn.discordapp.com/attachments/474299532801474562/1132714873533509683/Immagine_2023-07-23_184402.png)
-
-Optional:
-If you have multiple maps, set the following option to "Merge".
-
-![Screenshot2](https://cdn.discordapp.com/attachments/912293094609801257/1132689399272972358/Immagine_2023-07-23_170113.png)
+No binaries will be distributed, if you want to use it that much (not recomended) then build it yourself.
 
 ## Authors
 
@@ -37,9 +25,12 @@ If you have multiple maps, set the following option to "Merge".
 - [@Parrot](https://www.github.com/PaRRoT-tm) - SCP-012 Schematic
 - [@Michal78900](https://github.com/Michal78900) - MapEditorReborn Plugin
 
+## Editors
+
+- [@MMDDKK6500](https://www.github.com/MMDDKK6500) - Editor, main dev from Apollo Space
 
 ## Contacts
 
-Bugs and so on (Discord): smusi_jarvis\
+Bugs and so on (Discord): \<No support will be provided for this version\>\
 Schematic issues: smusi_jarvis or parrot_tm\
-Donation: https://www.paypal.com/paypalme/Am0nguS
+Donation (Towards original dev): https://www.paypal.com/paypalme/Am0nguS

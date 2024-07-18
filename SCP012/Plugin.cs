@@ -10,9 +10,9 @@ public class Plugin : Plugin<Config>
 
     public override string Author => "Smusi Jarvis";
 
-    public override Version Version => new(1, 1, 0);
+    public override Version Version => new(1, 3, 0);
 
-    public override Version RequiredExiledVersion => new Version(8, 0, 2);
+    public override Version RequiredExiledVersion => new Version(8, 9, 7);
 
     public static Plugin Singleton { get; private set; }
 
@@ -22,6 +22,8 @@ public class Plugin : Plugin<Config>
     {
         Singleton = this;
         RegisterEvents();
+        
+        Log.Info("Edited by MMDDKK6500 for Apollo Space Server!");
 
         base.OnEnabled();
     }
